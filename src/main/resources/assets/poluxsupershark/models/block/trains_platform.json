@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "poluxsupershark:block/train_platform",
+    "up": "poluxsupershark:block/train_platform",
+    "north": "poluxsupershark:block/train_platform",
+    "east": "poluxsupershark:block/train_platform",
+    "south": "poluxsupershark:block/train_platform",
+    "west": "poluxsupershark:block/train_platform",
+    "particle": "poluxsupershark:block/train_platform"
+  },
+  "render_type": "solid"
+}

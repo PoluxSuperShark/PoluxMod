@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "poluxsupershark:block/blue_blocks",
+    "up": "poluxsupershark:block/blue_blocks",
+    "north": "poluxsupershark:block/blue_blocks",
+    "east": "poluxsupershark:block/blue_blocks",
+    "south": "poluxsupershark:block/blue_blocks",
+    "west": "poluxsupershark:block/blue_blocks",
+    "particle": "poluxsupershark:block/blue_blocks"
+  },
+  "render_type": "solid"
+}
