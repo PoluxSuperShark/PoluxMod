@@ -1,0 +1,11 @@
+{
+  "_fv": 57,
+  "_type": "tab",
+  "definition": {
+    "name": "Trains Extras",
+    "icon": {
+      "value": "Items.MINECART"
+    },
+    "showSearch": true
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "_fv": 57,
+  "_type": "tab",
+  "definition": {
+    "name": "Colored Blocks",
+    "icon": {
+      "value": "Blocks.CONCRETE_POWDER#14"
+    },
+    "showSearch": false
+  }
+}
