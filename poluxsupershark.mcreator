@@ -1,0 +1,483 @@
+{
+  "mod_elements": [
+    {
+      "name": "Entity306",
+      "type": "livingentity",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "entity_306",
+      "metadata": {
+        "files": [
+          "src/main/java/net/poluxsupershark/client/renderer/Entity306Renderer.java",
+          "src/main/java/net/poluxsupershark/entity/Entity306Entity.java",
+          "src/main/resources/data/poluxsupershark/forge/biome_modifier/entity_306_biome_modifier.json",
+          "src/main/resources/assets/poluxsupershark/models/item/entity_306_spawn_egg.json"
+        ]
+      },
+      "path": "~/mobs/monsters"
+    },
+    {
+      "name": "MonstersPolux",
+      "type": "tab",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "monsters_polux",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/tabs"
+    },
+    {
+      "name": "TrainsExtras",
+      "type": "tab",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trains_extras",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/tabs"
+    },
+    {
+      "name": "TrainsPlatform",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trains_platform",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/poluxsupershark/blockstates/trains_platform.json",
+          "src/main/resources/assets/poluxsupershark/models/block/trains_platform.json",
+          "src/main/resources/assets/poluxsupershark/models/item/trains_platform.json",
+          "src/main/java/net/poluxsupershark/block/TrainsPlatformBlock.java"
+        ]
+      },
+      "path": "~/blocks/trains"
+    },
+    {
+      "name": "TrainController",
+      "type": "livingentity",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "train_controller",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/poluxsupershark/forge/biome_modifier/train_controller_biome_modifier.json",
+          "src/main/java/net/poluxsupershark/client/renderer/TrainControllerRenderer.java",
+          "src/main/java/net/poluxsupershark/entity/TrainControllerEntity.java",
+          "src/main/resources/assets/poluxsupershark/models/item/train_controller_spawn_egg.json"
+        ]
+      },
+      "path": "~/mobs/trains"
+    },
+    {
+      "name": "RickRoll",
+      "type": "musicdisc",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rick_roll",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/poluxsupershark/models/item/rick_roll.json",
+          "src/main/java/net/poluxsupershark/item/RickRollItem.java"
+        ]
+      },
+      "path": "~/musics"
+    },
+    {
+      "name": "PoluxiteArmor",
+      "type": "armor",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poluxite_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/poluxsupershark/models/item/poluxite_armor_boots.json",
+          "src/main/java/net/poluxsupershark/item/PoluxiteArmorItem.java",
+          "src/main/resources/assets/poluxsupershark/models/item/poluxite_armor_chestplate.json",
+          "src/main/resources/assets/poluxsupershark/models/item/poluxite_armor_helmet.json",
+          "src/main/resources/assets/poluxsupershark/models/item/poluxite_armor_leggings.json"
+        ]
+      },
+      "path": "~/armors"
+    },
+    {
+      "name": "PoluxiteArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poluxite_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/poluxsupershark/recipes/poluxite_armor_helmet_recipe.json"
+        ]
+      },
+      "path": "~/armors"
+    },
+    {
+      "name": "PoluxiteArmorChestplateRecipe",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poluxite_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/poluxsupershark/recipes/poluxite_armor_chestplate_recipe.json"
+        ]
+      },
+      "path": "~/armors"
+    },
+    {
+      "name": "PoluxiteArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poluxite_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/poluxsupershark/recipes/poluxite_armor_leggings_recipe.json"
+        ]
+      },
+      "path": "~/armors"
+    },
+    {
+      "name": "PoluxiteArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poluxite_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/poluxsupershark/recipes/poluxite_armor_boots_recipe.json"
+        ]
+      },
+      "path": "~/armors"
+    },
+    {
+      "name": "PoluxiteToolsPickaxe",
+      "type": "tool",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poluxite_tools_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/poluxsupershark/models/item/poluxite_tools_pickaxe.json",
+          "src/main/java/net/poluxsupershark/item/PoluxiteToolsPickaxeItem.java"
+        ]
+      },
+      "path": "~/tools"
+    },
+    {
+      "name": "PoluxiteToolsAxe",
+      "type": "tool",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poluxite_tools_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/poluxsupershark/item/PoluxiteToolsAxeItem.java",
+          "src/main/resources/assets/poluxsupershark/models/item/poluxite_tools_axe.json"
+        ]
+      },
+      "path": "~/tools"
+    },
+    {
+      "name": "PoluxiteToolsSword",
+      "type": "tool",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poluxite_tools_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/poluxsupershark/models/item/poluxite_tools_sword.json",
+          "src/main/java/net/poluxsupershark/item/PoluxiteToolsSwordItem.java"
+        ]
+      },
+      "path": "~/tools"
+    },
+    {
+      "name": "PoluxiteToolsShovel",
+      "type": "tool",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poluxite_tools_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/poluxsupershark/models/item/poluxite_tools_shovel.json",
+          "src/main/java/net/poluxsupershark/item/PoluxiteToolsShovelItem.java"
+        ]
+      },
+      "path": "~/tools"
+    },
+    {
+      "name": "PoluxiteToolsHoe",
+      "type": "tool",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poluxite_tools_hoe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/poluxsupershark/item/PoluxiteToolsHoeItem.java",
+          "src/main/resources/assets/poluxsupershark/models/item/poluxite_tools_hoe.json"
+        ]
+      },
+      "path": "~/tools"
+    },
+    {
+      "name": "PoluxiteToolsPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poluxite_tools_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/poluxsupershark/recipes/poluxite_tools_pickaxe_recipe.json"
+        ]
+      },
+      "path": "~/tools"
+    },
+    {
+      "name": "PoluxiteToolsAxeRecipe",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poluxite_tools_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/poluxsupershark/recipes/poluxite_tools_axe_recipe.json"
+        ]
+      },
+      "path": "~/tools"
+    },
+    {
+      "name": "PoluxiteToolsSwordRecipe",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poluxite_tools_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/poluxsupershark/recipes/poluxite_tools_sword_recipe.json"
+        ]
+      },
+      "path": "~/tools"
+    },
+    {
+      "name": "PoluxiteToolsShovelRecipe",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poluxite_tools_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/poluxsupershark/recipes/poluxite_tools_shovel_recipe.json"
+        ]
+      },
+      "path": "~/tools"
+    },
+    {
+      "name": "PoluxiteToolsHoeRecipe",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poluxite_tools_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/poluxsupershark/recipes/poluxite_tools_hoe_recipe.json"
+        ]
+      },
+      "path": "~/tools"
+    },
+    {
+      "name": "Poluxite",
+      "type": "tab",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poluxite",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/tabs"
+    },
+    {
+      "name": "ColoredBlocks",
+      "type": "tab",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "colored_blocks",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/tabs"
+    },
+    {
+      "name": "RedFilled",
+      "type": "block",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_filled",
+      "metadata": {
+        "files": [
+          "src/main/java/net/poluxsupershark/block/RedFilledBlock.java",
+          "src/main/resources/assets/poluxsupershark/models/block/red_filled.json",
+          "src/main/resources/assets/poluxsupershark/models/item/red_filled.json",
+          "src/main/resources/assets/poluxsupershark/blockstates/red_filled.json"
+        ]
+      },
+      "path": "~/blocks/colored"
+    },
+    {
+      "name": "BlueFilled",
+      "type": "block",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_filled",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/poluxsupershark/models/item/blue_filled.json",
+          "src/main/resources/assets/poluxsupershark/blockstates/blue_filled.json",
+          "src/main/resources/assets/poluxsupershark/models/block/blue_filled.json",
+          "src/main/java/net/poluxsupershark/block/BlueFilledBlock.java"
+        ]
+      },
+      "path": "~/blocks/colored"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "rickroll",
+      "files": [
+        "naver_gonna_give_you_up"
+      ],
+      "category": "music",
+      "subtitle": ""
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "item.poluxsupershark.poluxite_armor_leggings": "Poluxite Leggings",
+      "item.poluxsupershark.entity_306_spawn_egg": "Entity 306 Spawn Egg",
+      "item.poluxsupershark.poluxite_armor_chestplate": "Poluxite Chestplate",
+      "item.poluxsupershark.poluxite_armor_boots": "Poluxite Boots",
+      "item.poluxsupershark.rick_roll.desc": "Rick Astley - Never Gonna Give You Up",
+      "item.poluxsupershark.poluxite_tools_sword": "PoluxiteTools Sword",
+      "item.poluxsupershark.poluxite_tools_shovel": "PoluxiteTools Shovel",
+      "item.poluxsupershark.poluxite_tools_axe": "PoluxiteTools Axe",
+      "entity.poluxsupershark.train_controller": "Train Controller",
+      "item_group.poluxsupershark.poluxite": "Poluxite",
+      "entity.poluxsupershark.entity_306": "Entity 306",
+      "block.poluxsupershark.blue_filled": "Blue Filled",
+      "block.poluxsupershark.trains_platform": "Trains Platform",
+      "item.poluxsupershark.train_controller_spawn_egg": "Train Controller Spawn Egg",
+      "subtitles.rickroll": "",
+      "item_group.poluxsupershark.trains_extras": "Trains Extras",
+      "item.poluxsupershark.poluxite_tools_hoe": "PoluxiteTools Hoe",
+      "item_group.poluxsupershark.colored_blocks": "Colored Blocks",
+      "item_group.poluxsupershark.monsters_polux": "Monsters Polux",
+      "item.poluxsupershark.rick_roll": "Rick Roll",
+      "item.poluxsupershark.poluxite_armor_helmet": "Poluxite Helmet",
+      "item.poluxsupershark.poluxite_tools_pickaxe": "PoluxiteTools Pickaxe",
+      "block.poluxsupershark.red_filled": "Red Filled"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "blocks",
+        "children": [
+          {
+            "name": "trains",
+            "children": []
+          },
+          {
+            "name": "colored",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "mobs",
+        "children": [
+          {
+            "name": "monsters",
+            "children": []
+          },
+          {
+            "name": "trains",
+            "children": []
+          },
+          {
+            "name": "team_polux",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "tabs",
+        "children": []
+      },
+      {
+        "name": "musics",
+        "children": []
+      },
+      {
+        "name": "armors",
+        "children": []
+      },
+      {
+        "name": "tools",
+        "children": []
+      },
+      {
+        "name": "items",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "poluxsupershark",
+    "modName": "PoluxSuperShark",
+    "version": "1.0.0",
+    "author": "PoluxSuperShark",
+    "websiteURL": "https://poluxsupershark.net/",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Mcreator",
+    "modElementsPackage": "net.poluxsupershark",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300452316
+}
